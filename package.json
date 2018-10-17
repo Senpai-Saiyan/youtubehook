@@ -1,0 +1,29 @@
+{
+  "name": "youtubehook",
+  "version": "0.0.1",
+  "description": "Youtube Uploads to Discord Webhooks",
+  "main": "hook.js",
+  "scripts": {
+    "start": "node hook.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senpai-Saiyan/youtubehook.git"
+  },
+  "keywords": [
+    "youtube",
+    "discord",
+    "webhook"
+  ],
+  "author": "3ventic",
+  "license": "MIT",
+  
+  "homepage": "https://github.com/Senpai-Saiyan/youtubehook#readme",
+  "dependencies": {
+    "pubsubhubbub": "^0.4.1",
+    "request": "^2.88.0",
+    "xml2js": "^0.4.19",
+    "express": "^4.16.4",
+    "ws": "^6.1.0"
+  }
+}
